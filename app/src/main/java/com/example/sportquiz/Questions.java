@@ -12,6 +12,7 @@ public class Questions {
             "Kto wygrał klasyfikacje generalną Pucharu Świata w skokach narciarskich w 2019 roku?",
             "W jakiej drużynie obecnie gra najlepszy strzelec reprezentacji Polski w piłce nożnej?",
             "Jaka drużyna wygrała rozgrywki LaLiga w sezonie 208/2019?",
+            "W której lidzę występuje obecnie żużlowa drużyna Wybrzeża Gdańsk? "
 
 
     };
@@ -26,11 +27,11 @@ public class Questions {
             {"Dawid Kubacki", "Ryoyu Kobayashi", "Karl Gieger", "Stefan Kraft"},
             {"Borussia Dortmund", "Juventus Turyn", "Real Madryt", "Bayern Monachium"},
             {"Sevilla FC", "Atletico Madryt", "FC Barcelona", "Real Madryt"},
-            {"Odpowiedź 1", "Odpowiedź 2", "Odpowiedź 3", "Odpowiedź 4"},
+            {"Ekstraliga", "1 Liga", "2 Liga", "W żadnej"},
 
     };
 
-    private String mCorrectAnswers[] = {"Francja","Bartosz Zmarzlik", "Jerzy Brzęczek", "Malwina Smarzek" , "Toronto Raptors", "6", "Ryoyu Kobayashi", "Bayern Monachium" , "FC Barcelona", "Odpowiedź 2"};
+    private String mCorrectAnswers[] = {"Francja","Bartosz Zmarzlik", "Jerzy Brzęczek", "Malwina Smarzek" , "Toronto Raptors", "6", "Ryoyu Kobayashi", "Bayern Monachium" , "FC Barcelona", "1 Liga"};
 
     public String getQuestion(int a) {
         String question = mQuestions[a];
